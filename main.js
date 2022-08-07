@@ -43,5 +43,5 @@ process.on('unhandleRejection', (reason, promise) => { console.log(`UNHANDLE_REJ
 process.on('warning', (...args) => console.log(...args));
 
 
-client.login("OTI1MDA1ODI5MDEzMzkzNDI5.Gjryf4.CcBlG15Z0ysyjxS1amrQH_bjIYjRLukqzZQ3WM");
-//client.login(process.env.TOKEN);
+
+client.login(process.env.TOKEN);
